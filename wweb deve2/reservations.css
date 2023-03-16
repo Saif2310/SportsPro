@@ -1,0 +1,60 @@
+.topRight,.topLeft {
+height: 50vh;
+width: 50%;
+}
+
+.topRight{
+    background-image : linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.50)),url(CG_Football_4G_pitch_1-scaled.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.topLeft{
+    background-image : linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.50)),url(article-13.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.bottom{
+    height: 50vh;
+    width: 100%;
+    background-image : linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+button{
+    width: 200;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #960014;
+    background: rgba(245, 245, 245, 0.195);
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #960014;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
